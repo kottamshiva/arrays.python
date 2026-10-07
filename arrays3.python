@@ -1,0 +1,16 @@
+ marks = [
+    [78, 85, 62],
+    [90, 71, 88],
+    [60, 95, 73]
+]
+
+rows = len(marks)
+cols = len(marks[0])
+total = 0
+
+for r in range(rows):
+    for c in range(cols):
+        total += marks[r][c]
+
+print("Total marks:", total)
+print("Student 1, Subject 2:", marks[0][1])
